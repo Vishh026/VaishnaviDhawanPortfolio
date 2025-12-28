@@ -92,6 +92,10 @@ const Slider = () => {
         <img className="child3" src="../../assets/img2.png" alt="" />
         <img className="child3" src="../../assets/Img3.png" alt="" />
         <img className="child3" src="../../assets/Img8.png" alt="" />
+        <img className="child3" src="../../assets/Img17.png" alt="" />
+        <img className="child3" src="../../assets/img2.png" alt="" />
+        <img className="child3" src="../../assets/Img3.png" alt="" />
+        <img className="child3" src="../../assets/Img8.png" alt="" />
       </div>
     </div>
   );

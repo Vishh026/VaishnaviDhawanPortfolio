@@ -4,6 +4,10 @@ import Container from './Container'
 import Strip from '../Strip'
 import Slider from '../Slider'
 import Works from '../Works'
+import Digital from '../../Digital'
+import Marquee from '../../Marquee'
+import Footer from '../Footer'
+
 
 const Home = () => {
   return (
@@ -13,6 +17,9 @@ const Home = () => {
       <Strip />
       <Slider />
       <Works />
+      <Digital />
+      <Marquee />
+      <Footer />
     </div>
   )
 }
