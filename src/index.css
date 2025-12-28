@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+.btn{
+   border-width: 1.3px;
+   border-color: #545454;
+
+}
+.btn:hover{
+    color: #0073BF;
+    border: none;
+}
+.nav-text:hover{
+    color: #ffffff
+}
+/* .nav{
+    backdrop-filter: blur(10px);
+} */
+
+.headline-text{
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+}
+.sub-head{
+    font-size: 18px;
+}
+
+.headline{
+    line-height: 5rem;
+    font-size: 5.8rem;
+    font-family: MyFont;
+     letter-spacing: -0.06em;
+    font-weight: bold;
+}
+.headline span{
+    font-family: Fraunces;
+    font-size: 5.8rem;
+    line-height: 5rem;
+    font-size: 6rem;
+    font-weight: 800;
+}
+.btn-head{
+     border-top-width: 2.3px;
+     border-bottom-width: 2.3px;
+     border-left-width: 1.px;
+     border-right-width: 1.px;
+   border-color: #004472;
+   box-shadow: 5px #001b2d;  
+}
+
+.child1,.child2 ,.child3{
+    padding: 5px;
+    object-fit: cover;
+    height:100%;
+    width:100%
+}
+
+
+.strip{
+    width: max-content;
+    pointer-events: none;
+}
+.strip img {
+  position: relative;
+  z-index: 1;
+}
+.strip {
+  position: relative;
+}
+
+.strip::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 3;
+
+  background: linear-gradient(
+    to right,
+    rgba(0,0,0,0.85),
+    rgba(0,0,0,0.4) 35%,
+    rgba(0, 0, 0, 0) 65%
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: "Fraunces";
+  src:url("../Fonts/fraunces_120pt-light.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src:url("../Fonts/madefor-text.var.original.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+.google-sans-flex {
+  font-family: "Google Sans Flex", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
+}
+
+
