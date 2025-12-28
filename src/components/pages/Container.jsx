@@ -18,7 +18,7 @@ const Container = () => {
      <div className="flex items-center justify-center flex-col text-[#ffffff]">
       <button className="btn-head px-4 py-2 rounded-4xl my-5">Design in detail</button>
       <div className="headline text-center">
-        <h1>Crafted <span>Websites</span></h1> 
+        <h1>Crafted <span className="span-h1">Websites</span></h1> 
     <h1><span>Lasting</span> Impressions</h1></div>
     <h1 className="text-[1.4rem] Google Sans Flex py-3 text-[#a0a0a0] ">Premium websites crafted for bold brands.</h1>
     

@@ -3,6 +3,7 @@ import Navbar from '../Navbar'
 import Container from './Container'
 import Strip from '../Strip'
 import Slider from '../Slider'
+import Works from '../Works'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Container />
       <Strip />
       <Slider />
+      <Works />
     </div>
   )
 }

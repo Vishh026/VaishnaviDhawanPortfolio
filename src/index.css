@@ -30,15 +30,18 @@
     line-height: 5rem;
     font-size: 5.8rem;
     font-family: MyFont;
-     letter-spacing: -0.06em;
-    font-weight: bold;
+     letter-spacing: -0.04em;
 }
 .headline span{
     font-family: Fraunces;
-    font-size: 5.8rem;
+    font-size: 5.4rem;
     line-height: 5rem;
     font-size: 6rem;
-    font-weight: 800;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+}
+.span-h1{
+  font-style: italic;
 }
 .btn-head{
      border-top-width: 2.3px;
@@ -55,6 +58,7 @@
     height:100%;
     width:100%
 }
+
 
 
 .strip{
@@ -83,6 +87,28 @@
     rgba(0, 0, 0, 0) 65%
   );
 }
+
+/* Works */
+.work-h1{
+  word-spacing: -20px;
+    font-size: 9.8rem;
+    font-family: MyFont;
+     letter-spacing: -0.06em;
+}
+.work-h1 span{
+  font-family: Fraunces;
+    font-size: 9.8rem;
+    letter-spacing: -0.06em;
+    font-style: italic;
+}
+.box{
+  height: 40rem;
+  width: 52rem;
+  background-color: aliceblue;
+  border-radius: 18px;
+}
+
+
 
 
 
@@ -135,7 +161,7 @@
 @font-face {
   font-family: "MyFont";
   src:url("../Fonts/madefor-text.var.original.woff2") format("woff2");
-  font-weight: 900;
+  font-weight: 700;
   font-style: normal;
 }
 

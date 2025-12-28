@@ -45,7 +45,7 @@ const Slider = () => {
   }, []);
 
   return (
-    <div ref={slideRef} className="overflow-hidden py-40 relative">
+    <div ref={slideRef} className="overflow-hidden pt-40 pb-20 relative">
       <div className="sliderSection  Slider w-full relative text-white flex gap-10">
         <div className="w-[37%] z-10 pt-12 px-10">
           <div className="text-[2.3rem] font-bold google-sans-flex py-3 leading-[2.5rem]">
